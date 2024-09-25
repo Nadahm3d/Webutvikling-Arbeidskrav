@@ -1,0 +1,57 @@
+.navbar-container {
+    background-color: #C5C5B9;
+    padding: 10px;
+    text-align: center; /* Dette sentrerer tekstinnholdet i headeren */
+}
+
+.title {
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;  /* Flexbox for å justere elementene horisontalt */
+    justify-content: center;  /* Dette sentrerer elementene */
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0 10px; /* Legger til avstand mellom menyvalgene */
+}
+
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #E5E1D8;
+    color: white;
+}
+
+/* Resource-menyen */
+.resource-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.resource-item {
+    display: flex;
+    align-items: center;
+}
+
+.resource-item img {
+    width: 30px; /* Juster størrelsen på bildene etter behov */
+    height: 30px;
+    margin-right: 5px;
+}

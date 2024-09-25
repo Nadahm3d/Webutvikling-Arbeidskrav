@@ -1,0 +1,68 @@
+/* Styling for grid-containeren til krigere */
+.warrior-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolonner */
+    gap: 12px; 
+    padding: 12px; 
+}
+
+/* Styling for grid-containeren til våpen */
+.weapon-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolonner */
+    gap: 12px; 
+    padding: 12px; 
+}
+
+/* Styling for grid-containeren til dyr */
+.animal-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 kolonner */
+    gap: 12px; 
+    padding: 12px; 
+}
+
+/* Styling for hvert kriger-, våpen- og dyre-element */
+.warrior-item, .weapon-item, .animal-item {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9; 
+}
+
+/* Styling for bildene */
+.warrior-item img, .weapon-item img, .animal-item img {
+    max-width: 100%;
+    height: auto; /* Sørger for at alle bildene holder samme forhold */
+}
+
+/* Styling for kjøp-knappen */
+.buy-btn {
+    background-color: #C5C5B9; /* Bakgrunnsfarge på knappen */
+    color: black; /* Tekstfarge på knappen */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: #E5E1D8; /* Lysere bakgrunnsfarge ved hover */
+    color: white; /* Hvit tekstfarge ved hover */
+}
+
+
+/* Section-titler */
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+

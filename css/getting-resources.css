@@ -1,0 +1,27 @@
+/*
+    Trenger du en dedikert CSS-fil per HTML-side i tillegg til main.css?
+*/
+
+.images-container {
+    display: flex;
+    justify-content: center; /* Sentraliserer bildene horisontalt */
+    gap: 20px; /* Avstand mellom de to bildene */
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.images-container img {
+    max-width: 100%; /* Justerer bildene slik at de holder seg innenfor containeren */
+    height: auto;
+    width: 500px; /* Du kan sette en fast bredde, eller fjerne denne for responsiv skalering */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: url('/images/pickaxe-cursor.png'), auto;
+}
+
+/* Gjør musepekeren til et bilde når du svever over bildet */
+.images-container img:hover { 
+    transform: scale(1.05);
+}
+
